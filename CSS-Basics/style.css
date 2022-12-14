@@ -1,0 +1,32 @@
+.headText {
+  color: darkorchid;
+}
+
+body {
+  background: darkgrey;
+}
+
+main div {
+  border-style: ridge;
+}
+
+.box {
+  flex-basis: 20%;
+}
+
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 765px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}

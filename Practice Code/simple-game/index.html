@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+/* JavaScript code */
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+let score = 0;
+let isPlaying = false;
+
+// Ball
+const ball = {
+  x: canvas.width / 2,
+  y: canvas.height / 2,
+  radius: 10,
+  dx: 2,
+  dy: -2,
+};
+
+// Draw ball on canvas
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+  ctx.fillStyle = '#0095dd';
+  ctx.fill();
+  ctx.closePath();
+}
+
+// Draw everything on canvas
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  drawBall();
+}
+
+// Update game objects
+function update() {
+  ball.x += ball.dx;
+  ball.y += ball.dy;
+
+  // Wall collision (right/left)
+  if (ball.x + ball.radius > canvas.width || ball.x - ball.radius < 0) {
+    ball.dx = -ball.dx;
+  }
+
+  // Wall collision (top/bottom)
+  if (ball.y + ball.radius > canvas.height || ball.y - ball.radius < 0) {
+    ball.dy = -ball.dy;
+  }
+}
+
+// Game loop
+function loop() {
+  if (isPlaying) {
+    draw();
+    update();
+  }
+  requestAnimationFrame(loop);
+}
+
+loop();
+    </script>
+</head>
+<body>
+    <!-- HTML code -->
+<canvas id="canvas"></canvas>
+<div id="score">0</div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Messin around</title>
+		<style>
+		.tiny		{font-size:8px;
+				text-align:center;
+				color:red;
+				background-color:black;
+				padding:10px;
+				margin-right:1000px;
+				border-color:yellow;
+				border-width:thick;
+				border-style:solid;
+				padding-width:1000px;
+				}
+		figure		{text-align:center;		
+				border-style:outset;
+				border-color:purple;
+				border-width:thick;
+				width:500px;
+				height:500px;
+				border-radius:25px;
+				}
+		img		{width:500px;
+				height:500px;
+				border-radius:25px;
+				}
+		li		{display:inline;
+				}
+
+		</style>
+	</head>
+<body>
+	<h1>Hello World</h1>
+		<p>This is a paragraph for hello world</p>
+	<h2>Hello World!</h2>
+		<p>Yup still here</p>
+	<h3>Hello World</h3>
+		<ul>
+			<li>1 world</li>
+			<li>2 world</li>
+			<li>3 world</li>
+			<li>4 world</li>
+			<li>5 world</li>
+		</ul>
+		<ol>
+			<li>chomp 1</li>
+			<li>chomp 2</li>
+			<li>chomping</li>
+			<li>chomping ping ing</li>
+		</ol>
+	<h4>Hello World!</h4>
+		<table>
+			<thead>  <!-- table head -->
+				<tr>		<!-- table row -->
+					<th>Name</th>	<!-- table head (columns) -->
+					<th>Age</th>
+					<th>Email</th>	
+				</tr>
+			</thead>		
+			<tbody>
+				<tr>		<!-- table row again -->
+					<td>Zebidiah Jafolla</td>		<!-- table data (same as columns, just below column data from table head)(its called data because 										it's inside of body and not table head -->
+					<td>36</td>		
+					<td>zebjafolla@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Johnny Rotten</td>
+					<td>22</td>
+					<td>jrAgg.alin.com</td>
+				</tr>
+				<tr>
+					<td>Ace Wilder</td>
+					<td>102</td>
+					<td>bulldozerfromhell@googlio.com</td>
+				</tr>
+			</tbody>
+			
+		</table>
+		<br>
+		<hr>
+		<br>
+		<form>								<!-- must have an 'action'(ex. action="process.php" or method="POST") and 'method' attribute 
+											which are back end helpers so that when 						
+											form input button is clicked the info will go to a data sheet or some type log 
+											and it will know wha to do with it -->
+			<label>First Name Here: </label>
+			<input type="text" placeholder="Name" name="person">
+			</label>
+			<br>
+			<br>
+			<div>
+				<label>Last Name Here: </label>
+				<input type="text" placeholder="Last Name" name="last name">
+				</label>
+			</div>
+			<br>
+			<div>
+				<label>Email Here: </label>
+				<input type="email" placeholder="Email" name="email">  <!-- type here as 'email' will not let user input anything that doesn't look like an email.
+											its an easy validator that comes from html -->	
+				</label>
+			</div>
+			<br>
+			<div>
+				<label>Text Here: </label>
+				<textarea name="texture" placeholder="please type here"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Who ya</label>
+				<select> 
+					<option>Choose</option>
+					<option>Someone</option>
+					<option>No one</option>
+					<option>Dinosaur</option>
+				</select>
+				
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="18">
+				</label>
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date">
+				
+			</div>
+
+			<hr>
+		</form>
+	<h5>Hello World</h5>
+	<br width="medium">
+	<figure>
+	<img src="/Users/Zeb/Desktop/Screen Shot 2022-11-14 at 10.14.26 AM.png">	
+	<figcaption>Screenshot from class</figcaption>
+	</figure>
+	
+	<h6>Hello World!</h6>
+		<p class="tiny">tiny world</p>
+		<p>lorem</p>
+		
+</body>
+</html>

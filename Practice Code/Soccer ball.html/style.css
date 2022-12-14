@@ -1,0 +1,53 @@
+/* CSS code */
+#soccer-ball {
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  #soccer-ball .sphere {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 10s linear infinite;
+  }
+  
+  #soccer-ball .sphere .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(1) {
+    background: black;
+    transform: translateZ(100px);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(2) {
+    background: white;
+    transform: rotateY(60deg) translateZ(100px);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(3) {
+    background: black;
+    transform: rotateY(120deg) translateZ(100px);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(4) {
+    background: white;
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(5) {
+    background: black;
+    transform: rotateY(240deg) translateZ(100px);
+  }
+  
+  #soccer-ball .sphere .face:nth-child(6) {
+    background: white;
+    transform: rotateY(300deg) translateZ(100px);
+  }
+  

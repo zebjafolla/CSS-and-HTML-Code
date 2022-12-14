@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+/*right position*/
+.tooltipright{
+position: relative;
+display: inline-block;
+border-bottom: 2px dotted blue;
+}
+.tooltipright .toolttext {
+visibility: hidden;
+width: 200px;
+height:100px;
+background-color:lightsalmon;
+color: black;
+text-align: center;
+border-radius: 4px;
+padding: 8px ;
+/* Position the tooltip */
+position: absolute;
+z-index: 0;
+left: 110%;
+}
+.tooltipright:hover .toolttext {
+visibility: visible;
+} 
+/*left position*/
+.tooltipleft{
+position: relative;
+display: inline-block;
+border-bottom: 2px dotted blue;
+}
+.tooltipleft .toolttextleft {
+visibility: hidden;
+width: 200px;
+height:50px;
+background-color:lightsalmon;
+color: black;
+text-align: center;
+border-radius: 4px;
+padding: 5px ;
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+right: 130%;
+}
+.tooltipleft:hover .toolttextleft {
+visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+<h2>Tooltip with different Position</h2>
+<p style="color :crimson;">Tooltip with Right position</p>
+<div class="tooltipright">What is Web Development?
+<span class="toolttext">Web Development is a technology used for developing websites, Designing Single page application's webpage etc.</span>
+</div>
+<br>
+<p style="color :crimson;">Tooltip with Left position</p>
+<div class="tooltipleft">What is HTML?
+<span class="toolttextleft">HTML is markup language for designing web pages for browser. </span>
+</div>
+</body>
+</html>

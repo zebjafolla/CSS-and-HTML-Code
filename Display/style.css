@@ -1,0 +1,393 @@
+
+.boxone {
+    display: flex;
+    border: 10px solid blue;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.box1_1 {
+    padding: 20px;
+      border: 10px double salmon;
+}
+.box1_2 {
+    padding: 20px;
+      border: 10px inset green;
+}
+.box1_3 {
+    padding: 20px;
+    border: 10px outset cornflowerblue;
+}   
+
+.boxtwo {
+    display:flex;
+    border-radius: 5px;
+    border: 3px solid teal; 
+}
+.box2_1 {
+    border: 1px solid teal;
+    border-radius: 4px 4px 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box2_2 {
+    border: 1px solid blue;
+    border-radius: 10px 9px 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box2_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxthree {
+    display:inline-flex;
+    border-radius: 5px;
+    border: 3px solid red; 
+    align-items:flex-start;
+    
+}
+
+.box3_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+   
+    flex: 2;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.box3_2 {
+    border: 1px solid blue;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 5px 10px 10px;
+   
+    display: flex;
+    margin-right: 0;
+}
+
+.box3_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+  
+}
+
+.boxfour {
+    display: flex;
+    //border: 3px dotted darkgoldenrod;
+   // width: auto;
+   // height: auto;
+   flex-flow: wrap;
+}
+
+.box4_1 {
+    border: 2px solid blue;
+    border-radius: 0px 0px 1px 1px;
+    padding: 3px;
+    order: 3;
+}
+
+.box4_2 {
+    border: 5px solid black;
+    //margin: 10px 20px 10px 20px;
+   padding: 0px;
+  //order: 1;
+   //align-items: center;
+    //flex-flow: ;
+  //  height: auto;
+}
+
+.box4_3 {
+    border: 5px double purple;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+    order: 2;
+    align-content:center;
+}
+
+.boxfive {
+    border: 2px groove tomato;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.box5_1 {
+    border: 1px dashed blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.box5_2 {
+    border: 10px ridge blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+    flex: 1;
+}
+
+.box5_3 {
+    border: 1px inset blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+    flex: 2;
+}
+
+.boxsix {
+    border: 2px outset brown;
+    border-radius: 14px;
+    display: flex;
+    align-items: end;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+}
+
+.box6_1 {
+    outline: 10px solid green;
+    border: 10px solid blue;
+    border-radius: 2px;
+    margin: 20px;
+    padding: 3px;
+    width: auto;
+}
+
+.box6_2 {
+    border: 10px solid blue;
+    outline: 10px solid pink;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 3px;
+    width: auto;
+}
+
+.box6_3 {
+    border: 10px solid blue;
+    border-radius: 2px;
+    outline: 10px solid magenta;
+    margin: 20px;
+    padding: 3px;
+    width: auto;
+}
+
+.boxseven {
+    
+}
+
+.box7_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box7_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box7_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxeight {
+    
+}
+
+.box8_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box8_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box8_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxnine {
+    
+}
+
+.box9_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box9_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box9_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxten {
+    
+}
+
+.box10_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box10_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box10_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxeleven {
+    
+}
+
+.box11_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box11_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box11_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxtwelve {
+    
+}
+
+.box12_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box12_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box12_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.boxthirteen {
+    
+}
+
+.box13_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box13_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box13_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+
+.boxfourteen {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid purple;
+    justify-content:right;
+    border-end-end-radius: ;
+}
+
+.box14_1 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box14_2 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
+
+.box14_3 {
+    border: 1px solid blue;
+    border-radius: 0 0 1px 1px;
+    margin: 10px;
+    padding: 3px;
+}
