@@ -5,32 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=""style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <heading>
-        <ul>
-            <li>Zeb</li>
-            <li>About Me</li>
-            <li>Experience</li>
-            <li>Testimonials</li>
-            <li>Contacts</li>
-        </ul>
-    </heading> <!-- whole page should have slightly different backgroundgradient from top to bottom, white to off white -->
-    <section>
-        <!-- left side here is large heading to the left with an one sentence intro about me and my name; email me link below intro -->
-        <aside>
-            <!-- /*img of me goes here to right side, curved edges*/  -->
-        </aside>
 
-        <!-- bottom left here of section is social links -->
-        <!-- whole section is different background color 100% width -->
-    </section>
- 
-    <section>
+<!-- somehow have to incorporate javascript to make resume more impressive -->
+<body>
+    <nav> <!--heading should be completely translucent, <li> should be clickable -->
+        <div class="zeb">
+            <a href="#top">Zebidiah</a>
+        </div>
+        <ul class="nav_list">
+            <!-- this link reloads the page (A home plate) -->
+            <a href="#background-info"><li>About me</li></a>  <!--this link goes to background section of page -->
+            <a href="#experience"><li>Experience</li></a>   <!--'     ' -->
+            <a href="#testimonials"><li>Testimonials</li></a>    <!--'     ' -->
+            <a href="#contacts"><li>Contacts</li></a>    <!--'     ' -->
+        </ul>   
+    </nav> <!-- whole page should have slightly different backgroundgradient from top to bottom, white to off white -->
+    <section id="homepage">
+        <section id="intro_section_box">
+            <!-- left side here is large heading to the left with an one sentence intro about me and my name; email me link below intro; email button should pull up mail client -->
+            <p class="intro_quote_box">Hi, I am Zeb, an entry level developer.</p>
+            <aside id="intro_pic_box">
+                <!-- /*img of me goes here to right side, curved edges*/  -->
+                <img src="IMG_20221114_120346.jpg">
+            </aside>
+            <span id="email">
+                <a href = "mailto: zebjafolla@gmail.com">Send Email</a>
+            </span>
+            <!-- bottom left here of section is social links -->
+            <!-- whole section is different background color 100% width -->
+        </section>
+    </section>  
+    <section id="background-info">
         <!-- this section is background about me on the left and skills to the right, leading into next section which will be experience -->
     </section>
-    <section>
+    <section id="pictures">
         <figure>
             <img> <!--this section is for three professional pictures layed out row style, big one in middle, little ones right and left, centered, curved radius-->
         </figure>
@@ -41,20 +51,20 @@
             <img>
         </figure>
     </section>
-    <section>
+    <section id="experience">
         <!-- this is experience section   heading to left                               actual info to right-->
 
         <!-- this section is education          heading to left                                             actual info to right-->
 
         <!-- this section is courses            heading to left                             actual info to right-->
     </section>
-    <article>
+    <article id="inspire_quote">
         <!-- this is large inspirational quote that defines me and my goals, background different color, width 100% -->
     </article>
-    <section>
+    <section id="testimonials">
         <!-- this section is references/testimonials, pictures from friends, quotes from them about my character, picture on left, quote on rigth -->
     </section>
-    <section>
+    <section id="contacts">
          <!-- this section is the contact me section--picture of me explaing or talking on right, form on left, with submit button -->
     </section>
     <footer>
