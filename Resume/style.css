@@ -213,6 +213,7 @@ li {
 }
 #pictures figure img{
     width: 30vw;
+    height: 40vw;
     border-radius: 35px;
 
 }
